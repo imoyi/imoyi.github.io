@@ -105,6 +105,15 @@
     </div>
 </footer>
 
+<!-- jQuery -->
+<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
+
     {%if page.mermaid %}
         <script src='/js/mermaid-7.1.0.min.js'></script>
         <script>
@@ -136,15 +145,6 @@
                 });
             </script>
     {% endif %}
-<!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
-
 <!-- Service Worker -->
 {% if site.service-worker %}
 <script type="text/javascript">
