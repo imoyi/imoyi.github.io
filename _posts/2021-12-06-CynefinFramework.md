@@ -21,7 +21,7 @@ Cynefin模型是用来辅助决策的概念框架
 行动模式
 ```mermaid
 graph LR
-感知->分类->反应
+感知 -> 分类 -> 反应
 ```
 
 ## 2. Complicated（繁杂)
