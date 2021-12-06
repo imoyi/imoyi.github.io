@@ -14,7 +14,7 @@ tags:
 Cynefin模型是用来辅助决策的概念框架
 
 # 5大领域
-![](img-post//Cynefin_as_of_1st_June_2014.png)
+![](/img-post//Cynefin_as_of_1st_June_2014.png)
 
 ## 1. Simple / Obvious / Clear
 已知的领域，因果关系明确。
